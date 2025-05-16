@@ -4,8 +4,6 @@ from sklearn.preprocessing import MinMaxScaler
 import numpy as np
 from sklearn.metrics import mean_squared_error, r2_score
 
-# Example data
-# Let's create a simple dataset for demonstration
 # X: features, y: target
 X = np.array([[1], [2], [3], [4], [5], [6], [7], [8], [9], [10]])
 y = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
